@@ -16,3 +16,4 @@ In this tutorial, you will learn how to generate dynamic PDFs using HTML code as
 5. Open two different terminals:
 First one: go into the client directory and ```run npm start```
 Second one: go into the server directory and ```run nodemon index.js```
+# reciept-generator-using-node-js-and-react.js
