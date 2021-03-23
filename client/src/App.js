@@ -27,12 +27,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="pdfHeader">PDF Generator for shop</h1>
+        <h1 className="pdfHeader">Receipt Generator for shop</h1>
         <input  type="text" placeholder="Name" name="name" onChange={this.handleChange}/>
         <input type="number" placeholder="Receipt ID" name="receiptId" onChange={this.handleChange} />
-        <input type="number" placeholder="Price 1" name="price1" onChange={this.handleChange} />
-        <input type="number" placeholder="Price 2" name="price2" onChange={this.handleChange} />
-        <button className="button" onClick={this.createAndDownloadPdf}>Download PDF</button>
+        <input type="number" placeholder="First Price" name="price1" onChange={this.handleChange} />
+        <input type="number" placeholder="Second Price" name="price2" onChange={this.handleChange} />
+        <button className="button" onClick={this.createAndDownloadPdf}>Receipt PDF</button>
       </div>
     );
   }
